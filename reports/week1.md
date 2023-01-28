@@ -1,14 +1,14 @@
 # Lab Report 1 - Remote Access
 
 ## Step 1: Installing VScode
-Install [VScode](https://code.visualstudio.com/) by following the instructions for your operating system and open a new VScode window. 
+Install VScode by visiting the installation website [here](https://code.visualstudio.com/). Select the correct installation based on your respective operating system and press download. Open the downloaded .exe file and follow the instructions to install VScode on your computer. When installed, open a new VScode instance. 
 
 It should look something like this:
 ![VScode](../images/vscode.png) 
 
 ## Step 2: Remotely Connecting
 Install [Git](https://git-scm.com/) for your machine, which includes git and git bash. Next, open the terminal for VScode using (Ctrl or Command + `, or use the Terminal → New Terminal menu option). 
-Then, create a new bash instance  
+Then, create a new bash instance. 
 
 ![VScode](../images/bash.png) 
 
