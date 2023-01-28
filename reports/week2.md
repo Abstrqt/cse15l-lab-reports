@@ -174,30 +174,7 @@ static double averageWithoutLowest(double[] arr) {
 	return (sum-lowest) / (arr.length - 1);
 }
 ```
-
-
-Install [Git](https://git-scm.com/) for your machine, which includes git and git bash. Next, open the terminal for VScode using (Ctrl or Command + `, or use the Terminal → New Terminal menu option). 
-Then, create a new bash instance. 
-
-![VScode](../images/bash.png) 
-
-Then, login to your course-specific account using the following command:
-```bash
-$ ssh cs15lwi23xxx@ieng6.ucsd.edu
-```
-Your command will look something similar except the xxx should be replaced by the letters in your course-specific account. For example, in my case the command would be 
-```bash 
-$ ssh cs15lwi23afw@ieng6.ucsd.edu
-```
-Note that the $ symbol in the command should not be included when typing the command and that it is only there for convention. 
-If the following message appears, just type yes and press enter. 
-```
-The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? 
-```
-Enter your password and you should be logged in!
-
-![Login](../images/login.png) 
+This program sums up all the values in the array and then subtracts the lowest number once from the total. The average is then taken. 
 
 ## Part 3: Week 2 and 3 Reflection
+In the lab from week 2, I learned about the different parts of a url and how to setup a web server in Java. In a url, I learned that there is the scheme at the beginning, the domain, the path, the query, and the fragment. These parts help define a unique url that allows us to browse and retrieve information from the website we love! As for web servers, I learned how to run one on my own computer and how to handle incoming HTTP requests. 
