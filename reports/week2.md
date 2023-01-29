@@ -114,6 +114,7 @@ Server Started! Visit http://localhost:3000 to visit.
 ```
 
 Once the server is started, try out some commands!
+
 ![Demo1](../images/stringserverdemo1.png)
 
 In this `HTTP GET` request, the `handleRequest` method is called with the url argument `http://localhost:3000/add-message?s=Hello`. In this url, `http://` defines the scheme, `localhost:3000` defines the domain, `/add-message` defines the path, and `?s=Hello` defines the query. We are only interested in the values of the path and query. The path matches the `else-if` condition of our method and the query parameter is identified as `Hello`. The query parameter is added to the next line of all messages. 
