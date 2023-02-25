@@ -6,4 +6,6 @@
 
 ### [Lab Report 3 - Researching Commands](/reports/report3.md)
 
-*Last updated 11 Feb 2023* 
+### [Lab Report 4 - CSE Labs Done Quick](/reports/report4.md)
+
+*Last updated 25 Feb 2023* 
