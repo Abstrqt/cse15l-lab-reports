@@ -335,6 +335,7 @@ $ find written_2/ -maxdepth 2 -printf "%d\t%p\n"
 ```
 This command searches all the directories and subdirectories within 2 directories below the given directory for files and display them in the given pattern: file depth followed by a tab and the file name with a newline character. This command demonstrates another use case where `-printf` is useful for displaying additional information of a file. 
 
+---
 [^1]: Source for `-maxdepth` option [here](https://www.baeldung.com/linux/find-command#1-options)
 [^2]: Source for `-mindepth` option [here](https://www.baeldung.com/linux/find-command#1-options)
 [^3]: Source for `-type` option [here](https://www.baeldung.com/linux/find-command#2-tests)
