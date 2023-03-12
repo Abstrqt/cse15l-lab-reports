@@ -11,9 +11,6 @@ github_username: abstrqt
 # Minima: custom header links
 header_pages:
   - reports/report1.md
-  - reports/report2.md
-  - reports/report3.md
-  - reports/report4.md
   
 include:
     - reports
