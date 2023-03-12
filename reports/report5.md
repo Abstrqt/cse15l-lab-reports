@@ -9,7 +9,8 @@ $ ssh cs15lwi23afw@ieng6.ucsd.edu
 
 $ git clone git@github.com:Abstrqt/lab7.git 
 
-$ cd lab7/;javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java;java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+$ cd lab7/;javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java;
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
 $ sed -i '43s/index1 += 1;/index2 += 1;/' ListExamples.java 
 
@@ -29,7 +30,8 @@ ssh -T cs15lwi23afw@ieng6.ucsd.edu << EOM
 
 git clone git@github.com:Abstrqt/lab7.git 
 
-cd lab7/;javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java;java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+cd lab7/;javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java;
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
 sed -i '43s/index1 += 1;/index2 += 1;/'  ListExamples.java 
 
