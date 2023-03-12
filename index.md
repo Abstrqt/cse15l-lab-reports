@@ -8,4 +8,6 @@
 
 ### [Lab Report 4 - CSE Labs Done Quick](/reports/report4.md)
 
-*Last updated 25 Feb 2023* 
+### [Lab Report 5 - CSE Labs Done Quick 2](/reports/report5.md)
+
+*Last updated 11 Mar 2023* 
