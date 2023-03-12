@@ -42,7 +42,7 @@ git add ListExamples.java;git commit -m "edit file";git push
 
 EOM
 ```
-In the file `run.sh`, the first line contains the ssh command that allows us to log into ieng6. Notice that this command commands the `-T` flag. This flag allows us to supress some warnings regarding pseudo-terminal allocation, which doesn't matter in our case. There are still some warnings in the output, but they can just be ignored. The following commands that execute the 6 steps are wrapped in a EOM tag. This allows us to run the commands in ssh in a sequential order. It is worth noting that this command can be written as a one-liner like this `ssh cs15lwi23afw@ieng6.ucsd.edu "command1;command2;command3;etc`. This command gets rid of all the errors and can be run directly in terminal instead of a bash script, but I chose an alternate method that is more clear.
+In the file `run.sh`, the first line contains the ssh command that allows us to log into ieng6. Notice that this command commands the `-T` flag. This flag allows us to suppress some warnings regarding pseudo-terminal allocation, which doesn't matter in our case. There are still some warnings in the output, but they can just be ignored. The following commands that execute the 6 steps are wrapped in a EOM(EndOfMessage) tag. This allows us to run our multi-line commands in ssh in a sequential order. It is worth noting that this command can be written as a one-liner like this `ssh cs15lwi23afw@ieng6.ucsd.edu "command1;command2;command3;etc`. This command gets rid of all the errors and can be run directly in terminal instead of a bash script, but I chose an alternate method that is more clear to read.
 
 `Console Output`
 ```console
@@ -130,4 +130,4 @@ To github.com:Abstrqt/lab7.git
 As you can see, the bash script logs into ieng6 and executes all the steps correctly.
 
 ## Conclusion
-The one-liner was the method I used during my lab section and I was able to get my time down to 6 seconds. I don't think I could improve anymore on my time as the majority of the time is spent waiting to log into ieng6 and cloning the repo.
+The one-liner was the method I used during my lab section and I was able to get my time down to 6 seconds! It's hard to improve this time as the majority of the time is just spent waiting to log into ieng and cloning the repo. However, I heard that you could cache your connection to ieng6 beforehand to speed up your time even more. 
